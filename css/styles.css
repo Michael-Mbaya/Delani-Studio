@@ -1,0 +1,21 @@
+.delani{
+    background-image: url('../images/backgrounds/h_img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+  }
+
+.jumbotron{
+    padding-top: 84px;
+    margin-top: 84px;
+}
+
+.logo{
+    width: 80px;
+    height: 96px;
+}
+
+.bot{
+    margin-top: 55px;
+    padding-top: 50px;
+}
