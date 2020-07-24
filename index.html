@@ -3,25 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" 
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <title>Delani</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/ico">
 </head>
 <body>
   <div class=" container-fluid px-0">  
     <section class="delani">
       <div class="jum jumbotron text-center text-white bg-transparent mb-0 pb-0">
         <img class="logo pt-0 mt-0 pb-3" src="images/logo/logo.png" alt="Delani Studio Logo">
-        <h2 class="pt-1 pb-2 mb-2">WELCOME</h2>
-        <h2 class="pt-0 mt-0">TO DELANI STUDIO</h2>
-        <p class="pb-4 mb-4">AMAZING PEOPLE ARE DOING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+        <h2 class="text-uppercase font-weight-bold pt-1 pb-2 mb-2">welcome</h2>
+        <h2 class="text-uppercase font-weight-bold pt-0 mt-0">to delani studio</h2>
+        <p class="text-uppercase pb-4 mb-4">amazing people are doing amazing designs in a fun environment</p>
       </div>
       <p class="bot text-center pb-2"><img src="images/mouse_click.png" alt="Mouse Click image"></p>            
 
     </section>
 
     <section class="about bg-white text-dark text-center p-4">
-       <h4>ABOUT US</h4>
+       <h4 class="text-uppercase font-weight-bold">about us</h4>
        <p>When you work with us, you are part of a team of committed collaborators. 
            All aspects of our software development process are integrated, interactive<br>
             and agile.</p>
@@ -32,7 +38,7 @@
 
     <section class="services">
       <div class="jum-two jumbotron bg-transparent text-center text-white">
-          <h2>services</h2>
+          <h4 class="text-uppercase font-weight-bold">services</h4>
           <p>Before we sign a contract or write a line of code our team will spend the neccessary time needed 
               to understand your product vision</p>
           <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
@@ -40,16 +46,98 @@
       </div>
     </section>
 
-    <section>
-       
+    <section class="icons-do text-dark my-4">
+      <h4 class="text-uppercase font-weight-bold text-center mb-4">what we do</h4>
+
+      <div class="row align-items-center justify-content-center text-center">
+      <div class=" col-sm-4">
+        <div class="img-do">
+          <img class="touch" src="images/services_icons/design_icon.png" alt="">
+          <h5 class="touch text-uppercase">design</h5>
+        </div>
+        <div class="describe">
+          <h5 class="h-hide">hide h</h5>
+          <p class="p-hide">hide p</p>
+        </div>
+      </div>
+      <div class=" col-sm-4">
+        <div class="img-do">
+          <img src="images/services_icons/dev_icon.png" alt="">
+          <h5 class=" text-uppercase">development</h5>
+        </div>
+        <div class="describe">
+          <h5 class="h-hide">hide h</h5>
+          <p class="p-hide">hide p</p>
+        </div>
+      </div>
+      <div class=" col-sm-4">
+        <div class="img-do">
+          <img src="images/services_icons/product_icon.png" alt="">
+          <h5 class=" text-uppercase">product management</h5>
+        </div>
+        <div class="describe">
+          <h5 class="h-hide">hide h</h5>
+          <p class="p-hide">hide p</p>
+        </div>
+      </div>
+      </div>
     </section>
 
-    <section>
-       
+    <section class="portfolio pt-2 text-center">
+      <h4 class=" text-uppercase font-weight-bold text-center mb-4">portfolio</h4>
+
+      <div class="card-deck">
+        <div class="card mx-1 port-1" id="hover1">
+          <div class="card-body text-center text-danger" id="hovershow1">
+            <p class="card-text font-weight-bold">Work 1</p>
+          </div>
+        </div>
+        <div class="card mx-1 port-2" id="hover2">
+          <div class="card-body text-center text-danger" id="hovershow2">
+            <p class="card-text font-weight-bold">Work 2</p>
+          </div>
+        </div>
+        <div class="card mx-1 port-3" id="hover3">
+          <div class="card-body text-center text-danger" id="hovershow3">
+            <p class="card-text font-weight-bold">Work 3</p>
+          </div>
+        </div>
+        <div class="card mx-1 port-4" id="hover4">
+          <div class="card-body text-center text-danger" id="hovershow4">
+            <p class="card-text font-weight-bold">Work 4</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card mx-1 port-5" id="hover5">
+          <div class="card-body text-center text-danger" id="hovershow5">
+            <p class="card-text font-weight-bold">Work 5</p>
+          </div>
+        </div>
+        <div class="card mx-1 port-6" id="hover6">
+          <div class="card-body text-center text-danger" id="hovershow6">
+            <p class="card-text font-weight-bold">Work 6</p>
+          </div>
+        </div>
+        <div class="card mx-1 port-7" id="hover7">
+          <div class="card-body text-center text-danger" id="hovershow7">
+            <p class="card-text font-weight-bold">Work 7</p>
+          </div>
+        </div>
+        <div class="card mx-1 port-8" id="hover8">
+          <div class="card-body text-center text-danger" id="hovershow8">
+            <p class="card-text font-weight-bold">Work 8</p>
+          </div>
+        </div>
+      </div>
+
     </section>
 
-    <section class="contact">
-       
+    <section class="contact bg-info">
+       <p>esdfgh</p>
+       <p>serdfg</p>
+       <p>sdfgh</p>
     </section>
 
   </div>    

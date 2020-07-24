@@ -1,3 +1,8 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
 .delani{
     background-image: url('../images/backgrounds/h_img.jpg');
     background-repeat: no-repeat;
@@ -20,7 +25,7 @@
     margin-bottom: 5px;
 }
 
-section{
+section, .card-deck{
     overflow: hidden;
 }
 
@@ -41,4 +46,112 @@ section{
 .bot{
     margin-top: 55px;
     padding-top: 50px;
+}
+
+.row{
+    padding-top: 15px;
+}
+
+.describe{
+    display: none;
+}
+
+.portfolio{
+    margin: 10px 15%;
+}
+
+.port-1, .port-2, .port-3, .port-4, 
+.port-5, .port-6, .port-7, .port-8{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.port-1{
+    background-image: url('../images/portfolio/work4.jpg');
+}
+.port-2{
+    background-image: url('../images/portfolio/work1.jpg');
+}
+.port-3{
+    background-image: url('../images/portfolio/work2.jpg');
+}
+.port-4{
+    background-image: url('../images/portfolio/work3.jpg');
+}
+.port-5{
+    background-image: url('../images/portfolio/work5.jpg');
+}
+.port-6{
+    background-image: url('../images/portfolio/work6.jpg');
+}
+.port-7{
+    background-image: url('../images/portfolio/work7.jpg');
+}
+.port-8{
+    background-image: url('../images/portfolio/work8.jpg');
+}
+
+.card{
+    width: 160px;
+    height: 180px;
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px;
+    background-color: rgba(255, 255, 255, 0.555);
+    display: none;
+}
+
+@media (max-width: 800px) and (min-width: 576px){
+    body{
+        background-color: blanchedalmond;
+    }
+    .portfolio{
+        background-color: beige;
+        margin: 10px 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+}
+
+@media (max-width: 576px){
+    body{
+        background-color: blanchedalmond;
+    }
+    .portfolio{
+        background-color: beige;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 576px){
+    .card-deck {
+        width: auto;
+        margin: 5px 5px;
+    }
+    .card-deck .card{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 576px){
+    .card-deck {
+        width: auto;
+        margin: 5px 5px;
+    }
+    .card-deck .card{
+        width: 100%;
+        height: 200px;
+    }
 }
