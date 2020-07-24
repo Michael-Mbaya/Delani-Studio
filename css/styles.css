@@ -2,12 +2,35 @@
     background-image: url('../images/backgrounds/h_img.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    overflow: hidden;
   }
 
-.jumbotron{
+.services{
+    background-image: url('../images/backgrounds/s_image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.contact{
+    background-image: url('../images/backgrounds/c_image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.services p,.about p{
+    margin-bottom: 5px;
+}
+
+section{
+    overflow: hidden;
+}
+
+.jum{
     padding-top: 84px;
     margin-top: 84px;
+}
+
+.jum-two{
+    margin-top: 42px;
 }
 
 .logo{
