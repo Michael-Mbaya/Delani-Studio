@@ -52,20 +52,20 @@ section, .card-deck{
     padding-top: 15px;
 }
 
-.describe{
-    display: none;
+.describe1, .describe2, .describe3{
+    display: none;              /*descriptions hidden below each icons*/
 }
 
 .portfolio{
-    margin: 10px 15%;
+    margin: 10px 15%;       /*section containing the portfolios*/
 }
 
 .port-1, .port-2, .port-3, .port-4, 
 .port-5, .port-6, .port-7, .port-8{
-    background-size: 100% 100%;
+    background-size: 100% 100%;             /*cards classes(port1-port8) background-image attributes*/
     background-repeat: no-repeat;
 }
-
+        /*Below for each of (port1-port8), the bg-images*/
 .port-1{
     background-image: url('../images/portfolio/work4.jpg');
 }
@@ -97,15 +97,26 @@ section, .card-deck{
 }
 
 .card-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+    width: 100%;    /*card-body to fully fit inside card*/
+    height: 100%;   /*card-body to fully fit inside card*/
     padding: 0px 0px;
-    background-color: rgba(255, 255, 255, 0.555);
-    display: none;
 }
+
+.card-text{
+    width: inherit;     /*card-text to inherit card-body size to cover card fully*/
+    height: inherit;    /*card-text to inherit card-body size to cover card fully*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;    /*align text inside middle of the card via flex*/
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.450);   /*the white/grey-box-rgba with reduced opacity*/
+}
+
+#hovershow1, #hovershow2, #hovershow3, #hovershow4,     
+#hovershow5, #hovershow6, #hovershow7, #hovershow8 {
+    display: none;          /*hiding the card-bodies for each card via their IDs*/
+}
+
 
 @media (max-width: 800px) and (min-width: 576px){
     body{
