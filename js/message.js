@@ -5,9 +5,9 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("form").hover(function(){
+  $("#submit").hover(function(){
     $("#subscribe").toggle();
     }, function(){
-    $("#subscribe").toggle(500);
+    $("#subscribe").toggle();
   });
 });
