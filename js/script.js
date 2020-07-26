@@ -4,7 +4,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function() {
-    $(".img-do1").click(function() {
+  $(".img-do1").click(function() {
       $(".describe1").slideToggle();
       $(".img-do1").slideToggle();
     });

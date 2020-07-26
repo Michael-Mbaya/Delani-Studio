@@ -189,3 +189,7 @@ section, .card-deck{
 #name::placeholder, #email::placeholder, #message::placeholder{
     color: white;
 }
+
+#subscribe{
+    display: none;
+}

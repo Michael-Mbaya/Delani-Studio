@@ -140,7 +140,7 @@
 
     <section class="pt-2 contact d-flex flex-column justify-content-center align-items-center text-white">
       <h4 class=" text-uppercase font-weight-bold mt-2 mb-0">contact us</h4>
-      <form class="mb-3">
+      <form class="m-3 p-1" action="http://eepurl.com/g_jyXz" method="POST" target="_blank">
         <div class="row">
           <div class="col col-12 col-lg-6 mb-3">
             <input type="text" class="form-control bg-transparent" id="name" name="name" placeholder="Name..." required>
@@ -149,8 +149,8 @@
             <input type="email" class="form-control bg-transparent" id="email" name="email" placeholder="Email.." required>
           </div>
           <div class="col col-12">
-            <textarea class="form-control bg-transparent" id="message" name="subject" placeholder="Your message here.." rows="4"></textarea>
-            <input type="submit" class=" btn-primary btn-lg my-2" onclick="messaged();" value="Send">
+            <textarea class="form-control bg-transparent" id="message" name="subject" placeholder="Your message here.." rows="4" required></textarea>
+            <input type="submit" class=" btn-primary btn-lg my-2" value="Send"><span id="subscribe" class="mx-2 text-white">*click also to subscribe and get feedback.</span>
           </div>
           
         </div>

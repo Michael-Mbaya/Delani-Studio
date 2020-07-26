@@ -1,4 +1,13 @@
-function messaged(){
+$(document).ready(function(){
+  $("form").submit(function(){
     alert("Thank you Customer! We have received your Message.");
-    event.preventDefault();
-}
+  });
+});
+
+$(document).ready(function(){
+  $("form").hover(function(){
+    $("#subscribe").toggle();
+    }, function(){
+    $("#subscribe").toggle(500);
+  });
+});
