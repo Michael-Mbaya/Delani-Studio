@@ -9,7 +9,7 @@
 ## SETUP/INSTALLATION REQUIREMENTS
 
 * Clone or download this repository (link in the section below) to your local machine and run in ur code editor.
-* Or alternatively go to [(https://michael-mbaya.github.io/Delani-Studio/)]
+* Or alternatively go to https://michael-mbaya.github.io/Delani-Studio/
 
 ## BDD 
 ### Behaviour
@@ -31,8 +31,7 @@
 
 ## CONTACTS
 
-* For any enquiries and comments, reach out at:
-#### gikundamike@gmail.com
+* For any enquiries and comments, reach out at gikundamike@gmail.com
 
 ## LICENSE
 
