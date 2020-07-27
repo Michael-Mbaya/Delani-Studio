@@ -70,8 +70,7 @@ section, .card-deck{
     margin: 10px 15%;       /*section containing the portfolios*/
 }
 
-.port-1, .port-2, .port-3, .port-4, 
-.port-5, .port-6, .port-7, .port-8{
+.port-1, .port-2, .port-3, .port-4, .port-5, .port-6, .port-7, .port-8{
     background-size: 100% 100%;             /*cards classes(port1-port8) background-image attributes*/
     background-repeat: no-repeat;
 }
