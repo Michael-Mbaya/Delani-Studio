@@ -122,8 +122,7 @@ section, .card-deck{
     background-color: rgba(255, 255, 255, 0.4);   /*the white/grey-box-rgba with reduced opacity*/
 }
 
-#hovershow1, #hovershow2, #hovershow3, #hovershow4,     
-#hovershow5, #hovershow6, #hovershow7, #hovershow8 {
+#hovershow1, #hovershow2, #hovershow3, #hovershow4, #hovershow5, #hovershow6, #hovershow7, #hovershow8 {
     display: none;          /*hiding the card-bodies for each card via their IDs*/
 }
 
