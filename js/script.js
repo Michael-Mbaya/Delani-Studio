@@ -1,17 +1,17 @@
 $(document).ready(function(){
-    $(".row").css({"text-align":"center"});
-    $(".h-hide").css({"font-weight":"bold","text-transform":"uppercase"});  
+  $(".row").css({"text-align":"center"});
+  $(".h-hide").css({"font-weight":"bold","text-transform":"uppercase"});  
 });
 
 $(document).ready(function() {
   $(".img-do1").click(function() {
-      $(".describe1").slideToggle();
-      $(".img-do1").slideToggle();
-    });
-    $(".describe1").click(function() {
-        $(".img-do1").slideToggle();
-        $(".describe1").slideToggle();
-    }); 
+    $(".describe1").slideToggle();
+    $(".img-do1").slideToggle();
+  });
+  $(".describe1").click(function() {
+    $(".img-do1").slideToggle();
+    $(".describe1").slideToggle();
+  }); 
 });
 
 $(document).ready(function() {
@@ -26,14 +26,14 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $(".img-do3").click(function() {
-      $(".describe3").slideToggle();
-      $(".img-do3").slideToggle();
-    });
-    $(".describe3").click(function() {
-        $(".img-do3").slideToggle();
-        $(".describe3").slideToggle();
-    }); 
+  $(".img-do3").click(function() {
+    $(".describe3").slideToggle();
+    $(".img-do3").slideToggle();
+  });
+  $(".describe3").click(function() {
+    $(".img-do3").slideToggle();
+    $(".describe3").slideToggle();
+  }); 
 });
 
 $(document).ready(function(){
@@ -69,33 +69,33 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#hover5").hover(function(){
-      $("#hovershow5").fadeToggle(750);
-      }, function(){
-      $("#hovershow5").fadeToggle(500);
-    });
+  $("#hover5").hover(function(){
+    $("#hovershow5").fadeToggle(750);
+  }, function(){
+  $("#hovershow5").fadeToggle(500);
   });
+});
 
-  $(document).ready(function(){
-    $("#hover6").hover(function(){
-      $("#hovershow6").fadeToggle(750);
-      }, function(){
-      $("#hovershow6").fadeToggle(500);
-    });
+$(document).ready(function(){
+  $("#hover6").hover(function(){
+    $("#hovershow6").fadeToggle(750);
+  }, function(){
+  $("#hovershow6").fadeToggle(500);
   });
+});
 
-  $(document).ready(function(){
-    $("#hover7").hover(function(){
-      $("#hovershow7").fadeToggle(750);
-      }, function(){
-      $("#hovershow7").fadeToggle(500);
-    });
+$(document).ready(function(){
+  $("#hover7").hover(function(){
+    $("#hovershow7").fadeToggle(750);
+  }, function(){
+    $("#hovershow7").fadeToggle(500);
   });
+});
 
-  $(document).ready(function(){
-    $("#hover8").hover(function(){
-      $("#hovershow8").fadeToggle(750);
-      }, function(){
-      $("#hovershow8").fadeToggle(500);
-    });
+$(document).ready(function(){
+  $("#hover8").hover(function(){
+    $("#hovershow8").fadeToggle(750);
+  }, function(){
+    $("#hovershow8").fadeToggle(500);
   });
+});
