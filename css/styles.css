@@ -175,16 +175,16 @@ section, .card-deck{
     }
 }
 
-#name, #email{
+#MERGE1, #MERGE0{
     height: 20px;
 }
 
-#name, #email, #message{
+#MERGE1, #MERGE0, #MERGE2{
     border-radius: 0px;
     color: white;
 }
 
-#name::placeholder, #email::placeholder, #message::placeholder{
+#MERGE0::placeholder, #MERGE1::placeholder, #MERGE2::placeholder{
     color: white;
 }
 

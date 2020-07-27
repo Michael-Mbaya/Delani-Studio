@@ -1,15 +1,96 @@
 $(document).ready(function(){
 
-  $("form").submit(function(){
-    alert("Thank you "+document.getElementById("name").value+ "! We have received your Message. Subscribe in the next step and get our feedback.");
-  });
-  
-});
+  $("#submit").click(function(){
+    var name = document.getElementById("MERGE1").value;
+    var textarea = document.getElementById("MERGE2").value;
 
-$(document).ready(function(){
-  $("#submit").hover(function(){
-    $("#subscribe").toggle();
-    }, function(){
-    $("#subscribe").toggle();
+    if ((textarea.includes("!")==true)) {
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    } 
+    else if ((textarea.includes("/")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes("?")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes("+")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes("(")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes(")")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes("[")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes("]")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes("{")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    } 
+    else if ((textarea.includes("}")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes('\\')==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes("$")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes("%")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes("$")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes("#")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes("@")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes("\"")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes(":")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double qutes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes(";")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes(">")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else if ((textarea.includes("<")==true)){
+      alert("Message cannot have special characters such as /?+&%$#@!\/:;><)(}{][ or double quotes. Please Try again.");
+      event.preventDefault();
+    }
+    else {
+      alert("Thank you " +name+ " for reaching out to Us"+ "! We have received your Message.");
+    }
   });
+
 });
