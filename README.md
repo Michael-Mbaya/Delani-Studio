@@ -1,4 +1,4 @@
-# Delani-Porject
+# DELANI STUDIO
 
 ## By Michael-Mbaya
 
